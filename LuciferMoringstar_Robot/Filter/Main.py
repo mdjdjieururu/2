@@ -58,7 +58,7 @@ async def filter(client, message):
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f"[{get_size(file.file_size)}] {file.file_name}"
+                filename = f"[{get_size(file.file_size)}]-↔️ {file.file_name}"
                 btn.append(
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"pr0fess0r_99#{file_id}")]
                     )
@@ -79,7 +79,7 @@ async def filter(client, message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
+                [InlineKeyboardButton(text="🔰 Pages 1/1🔰",callback_data="pages")]
             )
             poster=None
             if API_KEY:
@@ -98,7 +98,7 @@ async def filter(client, message):
             [InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
-            [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
+            [InlineKeyboardButton(text=f"🎖️ Pages 1🎖️/{data['total']}",callback_data="pages")]
         )
         poster=None
         if API_KEY:
@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('Making Video', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('search group', url=f'{TUTORIAL}')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -285,7 +285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Making Video', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('search group', url=f'{TUTORIAL}')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -308,7 +308,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('search group', url=f'{TUTORIAL}')
                     ]
                     ]
                 
@@ -339,7 +339,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('search group', url=f'{TUTORIAL}')
                     ]
                     ]
                 
