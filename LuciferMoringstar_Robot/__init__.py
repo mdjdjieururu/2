@@ -13,29 +13,25 @@ from .Channel import (
 HELP = """
 Basic Commads
 
-/start :- check am Alive
+Basic Commads
 
-Bot Owner Only
-/broadcast Replay Any Message or Media
-/stats user Status
-/ban_user  click ban_user more info
-/unban_user click unban_user more info
-/banned_users Banned User Details
-/total How Many Files Added In Database
-/logger  Get Logs
-/delete Delete File From Database
+
+നിങ്ങൾ ആവിശ്യപ്പെട്ട സിനിമ ലഭിക്കുന്നതായി, നിങ്ങൾ ഞങ്ങളുടെ 'MALLU MOVIE UPDATES🎥' ചാനലിൽ ജോയിൻ ചെയ്യണം.
+
+ജോയിൻ ചെയ്ത ശേഷം ' 🔁 REFRESH 🔁 'ബട്ടൺ ക്ലിക്ക് ചെയ്യൂ 😊
+
+ Note : മൂവി Request ചെയ്യുമ്പോൾ മൂവി ഉണ്ടോ"കിട്ടുമോ.പ്ലീസ് തുടങ്ങിയ അവശ്യമില്ലാത്ത വാക്കുകൾ ഒഴിവാക്കുക..
 
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
+➥ MOVIE SEARCH: [Click Me](https://t.me/mallumoviegrup)
     
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
+➥ WEB SERIES : [Click Me](https://t.me/malluwebseriesd)
 
-➥ Language : Python3
+➥ New Releases : [Click Me](https://t.me/+RnQCwI5msYdjZTZl)
 
-➥ Library : Pyrogram Asyncio 1.13.0
+➥ Hollywood movie : [Click Me](https://t.me/+_qtk3lyn_5kwNGNl)
 
-➥ Tutorial : [Click Me](https://youtu.be/5hnYOKBzyi8)
+➥ MOVIE UPDATED : [Click Me](https://t.me/mallmovieup)
 """
